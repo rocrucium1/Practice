@@ -1,11 +1,15 @@
-// 현업에서 주석에 요구사항 기술 필수
 #include <stdio.h>
 
 int main(void)
 {
-    printf("%d", 100 - 50);
+    int a;
+    float b;
+
+    a = 123.45;
+    b = 200;
+
+    printf("a의 값: %d\n", a);
+    printf("b의 값: %f\n", b);
+
     return 0;
 }
-
-// master - branch -> commit
-// https://devyihyun.tistory.com/27
